@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width:800px;
+            height:600px;
+            border:2px solid black;
+        }
+        .one{
+            background-color: #9e3a3a;
+            width:200px;
+            height:40px;
+            text-align:center;
+            color:azure;
+            margin-left:30px;
+            margin-top: 5%;
+
+        }
+        .cont{
+
+            
+        }
+        .card{
+            width:200px;
+            height:40px;
+            background-color: #ffffff;
+            border:1px solid black;
+            text-align:center;
+            
+        }
+        .vout{
+           display:none;
+            margin-left:30px;
+            max-height: 150px;
+            
+            overflow-y: scroll;
+           
+        }
+        .card:hover{
+            background-color: #7e7575;
+        }
+        .vout:hover {
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+       <div class="cont">
+        <button class="one">Hover To View Option</button>
+        <div class="vout">
+            <div class="card">Option 1</div>
+            <div class="card">Option 2</div>
+            <div class="card">Option 3</div>
+            <div class="card">Option 4</div>
+            <div class="card">Option 5</div>
+            <div class="card">Option 6</div>
+            <div class="card">Option 7</div>
+            <div class="card">Option 8</div>
+        </div>
+       </div>
+    </div>
+</body>
+</html>

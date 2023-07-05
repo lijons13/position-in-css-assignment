@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            position: relative;
+            width:800px;
+            height: 800px;
+            border:2px solid black;
+            margin:80px;
+            
+        }
+        .head{
+            text-align:center;
+            color:blueviolet;
+
+        }
+        .card{
+            width:250px;
+            height:300px;
+            border:1px solid rgb(122, 127, 128);
+
+        }
+        .card1{
+            position:absolute;
+            background-color:rgb(67, 67, 136);
+            top:60px;
+            left:50px;
+        }
+        .card2{
+            position:absolute;
+            background-color:rgb(165, 62, 62);
+            top:90px;
+            left:100px;
+        }
+        .card3{
+            position:absolute;
+           background-color: rgb(59, 194, 149);
+           top:120px;
+           left:150px;
+        
+        }
+        .imgs{
+            width:100px;
+            height:150px;
+            display:block;
+            margin-left: auto;
+            margin-right:auto;
+            margin-top: 25%;
+            
+            
+        }
+       .card:hover{
+       
+        z-index: 2;
+       }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 class="head">Hover to unveil the image</h2>
+        <div class="card1 card"><img src="img1.jpg" class="imgs" alt=""></div>
+        <div class="card2 card">
+            <img src="img1.jpg" class="imgs" alt="">
+        </div>
+        <div class="card3 card"><img src="img1.jpg" class="imgs" alt=""></div>
+    </div>
+</body>
+</html>
